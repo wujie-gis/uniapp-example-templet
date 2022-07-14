@@ -3,11 +3,12 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
-			哈哈6666
+			哈哈,嘟嘟滴滴
 			<u-button
 			    text="警告按钮"
 			    size="normal"
 			    type="warning"
+				@click="onTips"
 			></u-button>
 		</view>
 	</view>
@@ -24,7 +25,9 @@
 
 		},
 		methods: {
-
+			onTips(){
+				this.$u.toast('hello uniapp');
+			}
 		}
 	}
 </script>
