@@ -78,7 +78,9 @@ export default {
       loginByPhone(this.validateForm.value).then(res => {
         console.log(res);
         this.$store.commit('setUserInfo', res);
-        console.log(this.$store.getters.getUserInfo);
+        uni.$u.route('/pages/index/index');
+        // console.log(this.$store.getters.getUserInfo);
+        // console.log(this.$store.getters.doubleCount);
       });
     },
   },
