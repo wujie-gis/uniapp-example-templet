@@ -8,10 +8,9 @@ module.exports = vm => {
       // 可使用async await 做异步操作
       // 初始化请求拦截器时，会执行此方法，此时data为undefined，赋予默认{}
       config.data = config.data || {};
-      // console.log(config);
-      // config.header.Authorization = useUserStore().getJwt;
+      // console.log(vm);
       if (!['/loginByPhoneNumber'].includes(!config?.url)) {
-        // config.header.Authorization = useUserStore().getJwt;
+        config.header.Authorization = vm.$store.getters.getJwt || '';
       }
       return config;
     },

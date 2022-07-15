@@ -77,7 +77,9 @@ export default {
       console.log(232);
       loginByPhone(this.validateForm.value).then(res => {
         console.log(res);
-      })
+        this.$store.commit('setUserInfo', res);
+        console.log(this.$store.getters.getUserInfo);
+      });
     },
   },
 };
