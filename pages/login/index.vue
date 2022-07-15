@@ -1,5 +1,8 @@
 <template>
-  <view class="wrap u-text-center u-font-18"> ahahah</view>
+  <view class="wrap u-rela u-safe-area-inset-bottom">
+    <view class="u-line-3 u-text-center u-content-color u-info-bg">ahha</view>
+    <u-button text="警告按钮" size="normal" type="warning"></u-button>
+  </view>
 </template>
 
 <script>
@@ -51,4 +54,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.wrap {
+  background-color: aqua;
+}
+</style>
