@@ -44,7 +44,8 @@
             "ios" : {},
             /* SDK配置 */
             "sdkConfigs" : {}
-        }
+        },
+        "nvueCompiler" : "weex"
     },
     /* 快应用特有相关 */
     "quickapp" : {},
@@ -52,7 +53,9 @@
     "mp-weixin" : {
         "appid" : "wxbae4ab9f39dda648",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "minified" : true,
+            "es6" : false
         },
         "usingComponents" : true
     },
