@@ -1,0 +1,20 @@
+{
+  "name": "uniapp-example",
+  "version": "1.0.0",
+  "description": "Uniapp 小程序模板",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wujie-gis/uniapp-example-templet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wujie-gis/uniapp-example-templet/issues"
+  },
+  "homepage": "https://github.com/wujie-gis/uniapp-example-templet#readme"
+}
